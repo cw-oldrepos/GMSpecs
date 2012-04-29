@@ -1,0 +1,5 @@
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\HardWareInfo\bin\Debug\HardWareInfo.dll
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\HardWareInfo\bin\Debug\HardWareInfo.pdb
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\HardWareInfo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\HardWareInfo\obj\Debug\HardWareInfo.dll
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\HardWareInfo\obj\Debug\HardWareInfo.pdb

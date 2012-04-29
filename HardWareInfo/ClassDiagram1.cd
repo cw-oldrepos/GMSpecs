@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HardWareInfo.Bios">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAYQQBIAAAAAAAAAAAQAAgEAAAACAAAAAAAAAA=</HashCode>
+      <FileName>BIOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HardWareInfo.CdromDrive">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAExIAAgAAAAAAAQAAAAAAAAACAAAEAEAAEA=</HashCode>
+      <FileName>CDROMDrive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HardWareInfo.Cpu">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAiAQEAEgAJkIAAVEAIBEEQAKcQAQQQIiAJAGAEAAAA=</HashCode>
+      <FileName>CPU.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HardWareInfo.Gpu">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAEAERAAAAAQAAGgAQAAAAACAAACAAIABECAAA=</HashCode>
+      <FileName>GPU.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HardWareInfo.Hdd">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IABAAAAAEERAIAgAACAAFgAAQAEAAAAACAuAAAEAAAA=</HashCode>
+      <FileName>Hdd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HardWareInfo.LogicalDisk">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAAACBAARgBAgAIAAAEAAAAAAAAAIACAAAAAOAAAA=</HashCode>
+      <FileName>LogicalDisk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HardWareInfo.PhysicalMemory">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAgAAAABBgAAAAAAAAAAADAAAAAgICCAAABAAAAAA=</HashCode>
+      <FileName>PhysicalMemory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HardWareInfo.NetworkAdapter">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAhgAAAAAERgAAAAAAAAEAQBgAAAAASACQAAEAEABAA=</HashCode>
+      <FileName>NetworkAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HardWareInfo.NativeMethods">
+    <Position X="4.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAACgAIAAAAAAAAAICwIASAQAAAAAAFAAIIAAA=</HashCode>
+      <FileName>Native\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

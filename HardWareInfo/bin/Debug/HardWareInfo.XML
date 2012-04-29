@@ -1,0 +1,771 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HardWareInfo</name>
+    </assembly>
+    <members>
+        <member name="F:HardWareInfo.PhysicalMemory.wmi">
+            <summary>
+             PhysicalMemory info
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.PhysicalMemory.#ctor(System.String)">
+            <summary>
+            Init
+            </summary>
+            <param name="Tag">unique identifier for the physical memory device that is represented by an instance of Win32_PhysicalMemory.</param>
+        </member>
+        <member name="M:HardWareInfo.PhysicalMemory.setTag(System.String)">
+            <summary>
+            set a unique identifier for the physical memory device that is represented by an instance of Win32_PhysicalMemory. 
+            </summary>
+            <param name="Tag">Unique identifier for the physical memory device that is represented by an instance of Win32_PhysicalMemory. use PhysicalMemory.MemoryList to get it </param>
+        </member>
+        <member name="M:HardWareInfo.PhysicalMemory.#ctor">
+            <summary>
+            Initialization
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.PhysicalMemory.GetCaptionFromTag(System.String)">
+            <summary>
+            Short description of the object
+            </summary>
+            <param name="tag">Unique identifier for the physical memory device that is represented by an instance of Win32_PhysicalMemory. </param>
+            <returns>Caption</returns>
+        </member>
+        <member name="P:HardWareInfo.PhysicalMemory.Capacity">
+            <summary>
+            capacity of the physical memory—in bytes. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.PhysicalMemory.BankLabel">
+            <summary>
+            Physically-labeled bank where the memory is located.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.PhysicalMemory.Caption">
+            <summary>
+            Short description of the object
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.PhysicalMemory.DeviceLocator">
+            <summary>
+            Label of the socket or circuit board that holds the memory.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.PhysicalMemory.Speed">
+            <summary>
+            Speed of the physical memory—in nanoseconds.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.PhysicalMemory.Tag">
+            <summary>
+            Unique identifier for the physical memory device that is represented by an instance of Win32_PhysicalMemory. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.PhysicalMemory.TotalPhysicalMemory">
+            <summary>
+            Total capacity of the physical memory in bytes.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.PhysicalMemory.MemoryList">
+            <summary>
+             Memory List
+            </summary>
+        </member>
+        <member name="F:HardWareInfo.Motherboard.wmi">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.Motherboard.#ctor">
+            <summary>
+            Initialization
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Motherboard.Manufacturer">
+            <summary>
+            Manufacturer
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Motherboard.Product">
+            <summary>
+            Baseboard part number defined by the manufacturer.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Motherboard.SerialNumber">
+            <summary>
+            Manufacturer-allocated number used to identify the physical element.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Motherboard.Version">
+            <summary>
+            Version of the physical element.
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.Gpu.#ctor(System.String)">
+            <summary>
+            Initialization
+            </summary>
+            <param name="DeviceID">DeviceID you can use GPUList to get all Installed GPUs</param>
+        </member>
+        <member name="M:HardWareInfo.Gpu.#ctor">
+            <summary>
+            Initialization
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.Name">
+            <summary>
+            Label by which the object is known.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.AdapterDACType">
+            <summary>
+            Name or identifier of the digital-to-analog converter (DAC) chip. The character set of this property is alphanumeric.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.AdapterRAM">
+            <summary>
+            Memory size of the video adapter.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.Caption">
+            <summary>
+            Short description (one-line string) of the object.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.CurrentBitsPerPixel">
+            <summary>
+            Number of bits used to display each pixel. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.CurrentHorizontalResolution">
+            <summary>
+            Current number of horizontal pixels.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.CurrentNumberOfColors">
+            <summary>
+            Number of colors supported at the current resolution.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.CurrentRefreshRate">
+            <summary>
+            requency at which the video controller refreshes the image for the monitor. A value of 0 (zero) indicates the default rate is being used, while 0xFFFFFFFF indicates the optimal rate is being used. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.DriverVersion">
+            <summary>
+            Version number of the video driver.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.PNPDeviceID">
+            <summary>
+            Windows Plug and Play device identifier of the logical device.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.VideoProcessor">
+            <summary>
+            Free-form string describing the video processor. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.VideoModeDescription">
+            <summary>
+            Current resolution, color, and scan mode settings of the video controller.
+            Example: "1024 x 768 x 256 colors"
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.VideoArchitecture">
+            <summary>
+            Type of video architecture. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Gpu.GPUList">
+            <summary>
+            List of GPUs
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.NetworkAdapter.#ctor">
+            <summary>
+            Initialization
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.NetworkAdapter.#ctor(System.String)">
+            <summary>
+            Initialization
+            </summary>
+            <param name="DeviceID">Unique id use NetworkAdapter.NetworkAdapterList </param>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.Caption">
+            <summary>
+            Short description of the object
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.Description">
+            <summary>
+            Description of the object.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.DeviceID">
+            <summary>
+            Unique identifier of the network adapter from other devices on the system. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.MACAddress">
+            <summary>
+            Media access control address for this network adapter. A MAC address is a unique 48-bit number assigned to the network adapter by the manufacturer. It uniquely identifies this network adapter and is used for mapping TCP/IP network communications.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.Manufacturer">
+            <summary>
+            Name of the network adapter's manufacturer.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.Name">
+            <summary>
+            Label by which the object is known.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.NetConnectionID">
+            <summary>
+            Name of the network connection as it appears in the Network Connections Control Panel program. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.GUID">
+            <summary>
+            Globally unique identifier for the connection. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.IsNetEnabled">
+            <summary>
+            Indicates whether the adapter is enabled or not. If True, the adapter is enabled.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.InterfaceIndex">
+            <summary>
+            Index value that uniquely identifies the local network interface.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.PNPDeviceID">
+            <summary>
+            Windows Plug and Play device identifier of the logical device.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.ServiceName">
+            <summary>
+            Service name of the network adapter. This name is usually shorter than the full product name.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.Speed">
+            <summary>
+            Estimate of the current bandwidth in bits per second. For endpoints which vary in bandwidth or for those where no accurate estimation can be made, this property should contain the nominal bandwidth. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.NetworkAdapter.NetworkAdapterList">
+            <summary>
+            List of all Network Adapters
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.LogicalDisk.#ctor(System.String)">
+            <summary>
+            Initialization
+            </summary>
+            <param name="DeviceID">use LogicalDisk.LogicalDiskList</param>
+        </member>
+        <member name="M:HardWareInfo.LogicalDisk.#ctor">
+            <summary>
+            Initialization
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.LogicalDisk.setDeviceID(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="DeviceID"></param>
+        </member>
+        <member name="M:HardWareInfo.LogicalDisk.GetDeviceIdFromCaption(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="caption"></param>
+            <returns></returns>
+        </member>
+        <member name="P:HardWareInfo.LogicalDisk.Caption">
+            <summary>
+            Short description of the object
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.LogicalDisk.Description">
+            <summary>
+            Description of the object. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.LogicalDisk.DriveType">
+            <summary>
+            Numeric value that corresponds to the type of disk drive this logical disk represents.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.LogicalDisk.FileSystem">
+            <summary>
+            File system on the logical disk.
+            Example: "NTFS"
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.LogicalDisk.FreeSpace">
+            <summary>
+            Space, in bytes, available on the logical disk. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.LogicalDisk.VolumeSerialNumber">
+            <summary>
+            Volume serial number of the logical disk.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.LogicalDisk.LogicalDiskList">
+            <summary>
+            List of All LogicalDisk
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.LogicalDisk.TotalSize">
+            <summary>
+            Size of the disk drive.
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.Hdd.#ctor(System.String)">
+            <summary>
+            Initialization
+            </summary>
+            <param name="DeviceID">use Hdd.DrivesList</param>
+        </member>
+        <member name="M:HardWareInfo.Hdd.#ctor">
+            <summary>
+            Initialization
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.Hdd.GetDeviceIdFromCaption(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="caption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HardWareInfo.Hdd.setDeviceID(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="DeviceID"></param>
+        </member>
+        <member name="P:HardWareInfo.Hdd.BytesPerSector">
+            <summary>
+            Number of bytes in each sector for the physical disk drive.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.InterfaceType">
+            <summary>
+            Interface type of physical disk drive. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.Caption">
+            <summary>
+            Short description (one-line string) of the object. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.Model">
+            <summary>
+            Manufacturer's model number of the disk drive.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.FirmwareRevision">
+            <summary>
+            Revision for the disk drive firmware that is assigned by the manufacturer.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.MediaType">
+            <summary>
+            Type of media used or accessed by this device. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.Index">
+            <summary>
+            Physical drive number of the given drive. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.Partitions">
+            <summary>
+            Number of partitions on this physical disk drive that are recognized by the operating system.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.PNPDeviceID">
+            <summary>
+            Windows Plug and Play device identifier of the logical device.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.SerialNumber">
+            <summary>
+            Number allocated by the manufacturer to identify the physical media.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.SectorsPerTrack">
+            <summary>
+            Number of sectors in each track for this physical disk drive.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.TotalSizeInBytes">
+            <summary>
+            Size of the disk drive. It is calculated by multiplying the total number of cylinders, tracks in each cylinder, sectors in each track, and bytes in each sector.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.TotalCylinders">
+            <summary>
+            Total number of cylinders on the physical disk drive. Note: the value for this property is obtained through extended functions of BIOS interrupt 13h. The value may be inaccurate if the drive uses a translation scheme to support high-capacity disk sizes. Consult the manufacturer for accurate drive specifications.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.TotalHeads">
+            <summary>
+            Total number of heads on the disk drive. Note: the value for this property is obtained through extended functions of BIOS interrupt 13h. The value may be inaccurate if the drive uses a translation scheme to support high-capacity disk sizes. Consult the manufacturer for accurate drive specifications.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.TotalSectors">
+            <summary>
+            Total number of sectors on the physical disk drive. Note: the value for this property is obtained through extended functions of BIOS interrupt 13h. The value may be inaccurate if the drive uses a translation scheme to support high-capacity disk sizes. Consult the manufacturer for accurate drive specifications.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.TotalTracks">
+            <summary>
+            Total number of tracks on the physical disk drive. Note: the value for this property is obtained through extended functions of BIOS interrupt 13h. The value may be inaccurate if the drive uses a translation scheme to support high-capacity disk sizes. Consult the manufacturer for accurate drive specifications.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.TracksPerCylinder">
+            <summary>
+            Number of tracks in each cylinder on the physical disk drive. Note: the value for this property is obtained through extended functions of BIOS interrupt 13h. The value may be inaccurate if the drive uses a translation scheme to support high-capacity disk sizes. Consult the manufacturer for accurate drive specifications.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.Capabilities">
+            <summary>
+            capabilities of the media access device. For example, the device may support random access (3), removable media (7), and automatic cleaning (9).
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Hdd.DrivesList">
+            <summary>
+            List of All Drives
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.Cpu.#ctor">
+            <summary>
+            Initialization
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.Cpu.#ctor(System.String)">
+            <summary>
+            DeviceID you can use Cpu.CpusList() to get all installed CPUs
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.ProcessorId">
+            <summary>
+            Processor information that describes the processor features. For an x86 class CPU, the field format depends on the processor support of the CPUID instruction. If the instruction is supported, the property contains 2 (two) DWORD formatted values. The first is an offset of 08h-0Bh, which is the EAX value that a CPUID instruction returns with input EAX set to 1. The second is an offset of 0Ch-0Fh, which is the EDX value that the instruction returns. Only the first two bytes of the property are significant and contain the contents of the DX register at CPU reset—all others are set to 0 (zero), and the contents are in DWORD format.
+            </summary>
+            
+        </member>
+        <member name="P:HardWareInfo.Cpu.Revision">
+            <summary>
+            System revision level that depends on the architecture. The system revision level contains the same values as the Version property, but in a numerical format. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.Socket">
+            <summary>
+            Type of chip socket used on the circuit.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.L2CacheSize">
+            <summary>
+            Size of the Level 2 processor cache. A Level 2 cache is an external memory area that has a faster access time than the main RAM memory.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.MaxClockSpeed">
+            <summary>
+            Maximum speed of the processor, in MHz.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.NumberofCores">
+            <summary>
+            Number of cores for the current instance of the processor. A core is a physical processor on the integrated circuit. For example, in a dual-core processor this property has a value of 2. For more information.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.NumberofLogicalProcessor">
+            <summary>
+            Number of logical processors for the current instance of the processor. For processors capable of hyperthreading, this value includes only the processors which have hyperthreading enabled. For more information.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.Manufacturer">
+            <summary>
+            Name of the processor manufacturer.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.DataWidth">
+            <summary>
+            On a 32-bit processor, the value is 32 and on a 64-bit processor it is 64.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.AddressWidth">
+            <summary>
+            On a 32-bit operating system, the value is 32 and on a 64-bit operating system it is 64. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.Architecture">
+            <summary>
+            Processor architecture used by the platform.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.DeviceID">
+            <summary>
+            Unique identifier of a processor on the system.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.Availability">
+            <summary>
+            Availability and status of the device.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.Caption">
+            <summary>
+            Short description of an object (a one-line string).
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.Status">
+            <summary>
+            Current status of the processor. Status changes indicate processor usage, but not the physical condition of the processor.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.CurrentClockSpeed">
+            <summary>
+            Current speed of the processor, in MHz.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.CurrentVoltage">
+            <summary>
+            Voltage of the processor. If the eighth bit is set, bits 0-6 contain the voltage multiplied by 10. If the eighth bit is not set, then the bit setting in VoltageCaps represents the voltage value. CurrentVoltage is only set when SMBIOS designates a voltage value. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.Description">
+            <summary>
+            Description of the object. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.ExternalClockFreq">
+            <summary>
+            External clock frequency, in MHz. If the frequency is unknown, this property is set to NULL. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.Familiy">
+            <summary>
+            Processor family type. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.PowerManagementSupported">
+            <summary>
+            If TRUE, the power of the device can be managed, which means that it can be put into suspend mode, and so on. The property does not indicate that power management features are enabled, but it does indicate that the logical device power can be managed. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.Name">
+            <summary>
+            Label by which the object is known.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.ProcessorType">
+            <summary>
+            Primary function of the processor.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.VoltageCap">
+            <summary>
+            Voltage capabilities of the processor. Bits 0-3 of the field represent specific voltages that the processor socket can accept. All other bits should be set to 0 (zero). The socket is configurable if multiple bits are set. For more information about the actual voltage at which the processor is running, see CurrentVoltage. If the property is NULL, then the voltage capabilities are unknown. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.L2CacheSpeed">
+            <summary>
+            Clock speed of the Level 2 processor cache. A Level 2 cache is an external memory area that has a faster access time than the main RAM memory.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.L3CacheSize">
+            <summary>
+            Size of the Level 3 processor cache. A Level 3 cache is an external memory area that has a faster access time than the main RAM memory.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.L3CacheSpeed">
+            <summary>
+            Clockspeed of the Level 3 property cache. A Level 3 cache is an external memory area that has a faster access time than the main RAM memory.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.CpusList">
+            <summary>
+            List of All CPUs
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.IsMMXSupported">
+            <summary>
+            The MMX instruction set is available.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.Is3DNowSupported">
+            <summary>
+            The 3D-Now instruction set is available.
+            </summary> 
+        </member>
+        <member name="P:HardWareInfo.Cpu.IsSSE3Supported">
+            <summary>
+            The SSE3 instruction set is available.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.IsSSE2Supported">
+            <summary>
+            The SSE2 instruction set is available.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Cpu.IsSSESupported">
+            <summary>
+            The SSE instruction set is available.
+            </summary>
+        </member>
+        <member name="F:HardWareInfo.CdromDrive.wmi">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.CdromDrive.#ctor(System.String)">
+            <summary>
+             initialization
+            </summary>
+            <param name="DeviceID">DeviceID for the Device you can use CDromDriveList to get a full list of installed Device </param>
+        </member>
+        <member name="M:HardWareInfo.CdromDrive.#ctor">
+            <summary>
+            initialization
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.CdromDrive.GetDeviceIdFromCaption(System.String)">
+            <summary>
+            DeviceID from Caption
+            </summary>
+            <param name="caption">Caption of the Device</param>
+            <returns>DeviceID</returns>
+        </member>
+        <member name="P:HardWareInfo.CdromDrive.Capability">
+            <summary>
+            capabilities of the media access device. For example, the device may support random access (3), removable media (7), and automatic cleaning (9).
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.CdromDrive.DriveLetter">
+            <summary>
+            Drive letter of the  drive.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.CdromDrive.Caption">
+            <summary>
+            Short description of the object
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.CdromDrive.DeviceID">
+            <summary>
+            Unique identifier for the drive.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.CdromDrive.PNPDeviceID">
+            <summary>
+            Windows Plug and Play device identifier of the logical device. 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.CdromDrive.CDromDriveList">
+            <summary>
+            Lists of all installed CDVD-ROMs 
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.CdromDrive.Name">
+            <summary>
+            Label for the object.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.CdromDrive.MediaType">
+            <summary>
+            Type of media that can be used or accessed by this device. Possible values are: 
+            CdRomOnly
+            CdRomWrite
+            DVDRomOnly
+            DVDRomWrite
+            Windows Server 2003, Windows XP, Windows 2000, and Windows NT 4.0:  Possible values are:
+            Random Access
+            Supports Writing
+            Removable Media
+            CD-ROM
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.NativeMethods.IsProcessorFeaturePresent(System.UInt32)">
+            <summary>
+            Determines whether the specified processor feature is supported by the current computer.
+            </summary>
+            <param name="ProcessorFeature">The processor feature to be tested.</param>
+            <returns></returns>
+        </member>
+        <member name="F:HardWareInfo.Bios.wmi">
+            <summary>
+             Bios information
+            </summary>
+        </member>
+        <member name="M:HardWareInfo.Bios.#ctor">
+            <summary>
+            Initialization
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="P:HardWareInfo.Bios.BIOSCharDigits">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Bios.BIOSCharacteristics">
+            <summary>
+            BIOS characteristics supported by the system as defined by the System Management BIOS Reference Specification.
+            </summary>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:HardWareInfo.Bios.Caption">
+            <summary>
+            caption.
+            </summary>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:HardWareInfo.Bios.CurrentLanguage">
+            <summary>
+            Name of the current BIOS language
+            </summary>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:HardWareInfo.Bios.Manufacturer">
+            <summary>
+            Manufacturer of this software element.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Bios.ReleaseDate">
+             <summary>
+            release date.
+             </summary>
+        </member>
+        <member name="P:HardWareInfo.Bios.SMBIOSBIOSVersion">
+            <summary>
+            SMBIOSBIOS version.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Bios.SMBIOSMajorVersion">
+            <summary>
+            SMBIOS major version.
+            </summary>
+        </member>
+        <member name="P:HardWareInfo.Bios.SMBIOSMinorVersion">
+            <summary>
+            SMBIOS minor version.
+            </summary>
+        </member>
+    </members>
+</doc>

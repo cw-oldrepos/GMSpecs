@@ -1,0 +1,16 @@
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\bin\Debug\Demo.exe
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\bin\Debug\Demo.pdb
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\bin\Debug\HardWareInfo.dll
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\bin\Debug\HardWareInfo.pdb
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\bin\Debug\HardWareInfo.xml
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\obj\x86\Debug\MainWindow.baml
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\obj\x86\Debug\App.g.cs
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\obj\x86\Debug\Demo_MarkupCompile.cache
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\obj\x86\Debug\Demo.g.resources
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\obj\x86\Debug\Demo.Properties.Resources.resources
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\obj\x86\Debug\Demo.exe
+C:\Users\Luis\Desktop\codecanyon-148907-hardwarelib\Demo\obj\x86\Debug\Demo.pdb

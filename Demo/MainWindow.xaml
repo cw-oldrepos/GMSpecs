@@ -1,0 +1,48 @@
+﻿<Window x:Class="WMIApps.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Loaded="Window_Loaded" ResizeMode="NoResize" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="555" Width="747">
+    <TabControl Height="476" Name="tabControl1" Width="636">
+        <TabItem Header="CPU" Name="tabItem1">
+            <Grid>
+                <Label Height="342" HorizontalAlignment="Left" Margin="20,66,0,0" Name="label1" VerticalAlignment="Top" Width="366" />
+                <GroupBox Header="Processor" Height="390" HorizontalAlignment="Left" Margin="6,33,0,0" Name="groupBox3" VerticalAlignment="Top" Width="400"></GroupBox>
+                <Grid Margin="13,57,230,20" />
+                <Button Content="Processor Features" Height="23" HorizontalAlignment="Left" Margin="463,89,0,0" Name="button2" VerticalAlignment="Top" Width="107" Click="button2_Click" />
+            </Grid>
+        </TabItem>
+        <TabItem Header="GPU" Name="tabItem6">
+            <Grid>
+                <ComboBox Height="22" HorizontalAlignment="Left" Margin="158,53,0,0" Name="comboBox4" VerticalAlignment="Top" Width="308" SelectionChanged="comboBox4_SelectionChanged" />
+                <Label Height="191" HorizontalAlignment="Left" Margin="70,104,0,0" Name="label6" VerticalAlignment="Top" Width="514" />
+            </Grid>
+        </TabItem>
+        <TabItem Header="BIOS" Name="tabItem3">
+            <Grid>
+                <Label Content="Label" Height="399" HorizontalAlignment="Left" Margin="26,22,0,0" Name="label2" VerticalAlignment="Top" Width="306" IsEnabled="True" />
+                <Button Content="BIOS Characteristics" Height="23" HorizontalAlignment="Left" Margin="415,68,0,0" Name="button1" VerticalAlignment="Top" Width="151" Click="button1_Click" />
+                <GroupBox Height="91" HorizontalAlignment="Left" Margin="402,38,0,0" Name="groupBox1" VerticalAlignment="Top" Width="174"></GroupBox>
+                <GroupBox Height="401" HorizontalAlignment="Left" Margin="6,6,0,0" Name="groupBox2" VerticalAlignment="Top" Width="260"></GroupBox>
+            </Grid>
+        </TabItem>
+        <TabItem Header="HDD" Name="tabItem2">
+            <Grid>
+                <ComboBox Height="23" HorizontalAlignment="Left" Margin="184,55,0,0" Name="comboBox1" VerticalAlignment="Top" Width="295" SelectionChanged="comboBox1_SelectionChanged_1" />
+                <Label Content="Label" Height="322" HorizontalAlignment="Left" Margin="47,101,0,0" Name="label3" VerticalAlignment="Top" Width="552" />
+            </Grid>
+        </TabItem>
+        <TabItem Header="Drives" Name="tabItem4">
+            <Grid>
+                <ComboBox Height="23" HorizontalAlignment="Left" Margin="175,43,0,0" Name="comboBox2" VerticalAlignment="Top" Width="285" SelectionChanged="comboBox2_SelectionChanged" />
+                <Label Height="239" HorizontalAlignment="Left" Margin="30,87,0,0" Name="label4" VerticalAlignment="Top" Width="566" />
+            </Grid>
+        </TabItem>
+        <TabItem Header="Network Adapter" Name="tabItem5">
+            <Grid>
+                <ComboBox Height="23" HorizontalAlignment="Left" Margin="153,44,0,0" Name="comboBox3" VerticalAlignment="Top" Width="319" SelectionChanged="comboBox3_SelectionChanged" />
+                <Label Height="251" HorizontalAlignment="Left" Margin="54,95,0,0" Name="label5" VerticalAlignment="Top" Width="526" />
+            </Grid>
+        </TabItem>
+
+    </TabControl>
+</Window>
